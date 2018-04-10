@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A7E28690207C525E00AADE5F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E2868F207C525E00AADE5F /* main.swift */; };
+		A7E28697207C5DCC00AADE5F /* ObjectiveFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E28696207C5DCC00AADE5F /* ObjectiveFunction.swift */; };
+		A7E28699207C6C4000AADE5F /* Restriction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E28698207C6C4000AADE5F /* Restriction.swift */; };
+		A7E2869B207C6E7400AADE5F /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E2869A207C6E7400AADE5F /* Input.swift */; };
+		A7E2869D207C75E200AADE5F /* SimplexMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E2869C207C75E200AADE5F /* SimplexMax.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		A7E2868C207C525E00AADE5F /* Metodo Simplex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Metodo Simplex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E2868F207C525E00AADE5F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A7E28696207C5DCC00AADE5F /* ObjectiveFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveFunction.swift; sourceTree = "<group>"; };
+		A7E28698207C6C4000AADE5F /* Restriction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restriction.swift; sourceTree = "<group>"; };
+		A7E2869A207C6E7400AADE5F /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		A7E2869C207C75E200AADE5F /* SimplexMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplexMax.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				A7E2868F207C525E00AADE5F /* main.swift */,
+				A7E2869C207C75E200AADE5F /* SimplexMax.swift */,
+				A7E2869A207C6E7400AADE5F /* Input.swift */,
+				A7E28696207C5DCC00AADE5F /* ObjectiveFunction.swift */,
+				A7E28698207C6C4000AADE5F /* Restriction.swift */,
 			);
 			path = "Metodo Simplex";
 			sourceTree = "<group>";
@@ -119,7 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E2869B207C6E7400AADE5F /* Input.swift in Sources */,
+				A7E28697207C5DCC00AADE5F /* ObjectiveFunction.swift in Sources */,
+				A7E28699207C6C4000AADE5F /* Restriction.swift in Sources */,
 				A7E28690207C525E00AADE5F /* main.swift in Sources */,
+				A7E2869D207C75E200AADE5F /* SimplexMax.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
